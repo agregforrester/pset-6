@@ -16,10 +16,6 @@ import java.util.Scanner;
                     upper = in.nextInt();
                     in.nextLine();
 
-                    if (upper >= lower) {
-                        break;
-                    }
-
                 } while (upper <= lower);
 
                 for (int x = lower; x <= upper; x++) {
