@@ -29,7 +29,7 @@ import java.util.Scanner;
                     digit = 0;
                 }
 
-                double sum1 = (double) sum;
+                double sum1 = sum;
 
                 System.out.println(" ");
                 System.out.printf("%,.0f", sum1); System.out.print(".");
