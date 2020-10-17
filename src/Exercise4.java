@@ -23,10 +23,16 @@ import java.util.Scanner;
                 } while (true);
 
                 double sum1 = sum;
-                double average = sum1 / counter;
 
-                System.out.println(" ");
-                System.out.printf("%,.2f", average);
+                if (counter == 0) {
+                    System.out.println(" ");
+                    System.out.print("Error: division by zero.");
+                } else {
+                    double average = sum1 / counter;
+
+                    System.out.println(" ");
+                    System.out.printf("%,.2f", average);
+                }
                 in.close();
             }
         }
